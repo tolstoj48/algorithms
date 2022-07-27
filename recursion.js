@@ -22,7 +22,7 @@ function countDown(number) {
  */
 function sumRange(number) {
   // Base case
-  if (number === 1) return 1;
+  if (number === 1) return 1
   // Step toward base case
   return number + sumRange(--number);
 }
@@ -34,7 +34,7 @@ function sumRange(number) {
  */
 function factorial(number) {
   // Base case
-  if (number === 1) return 1;
+  if (number === 1) return 1
   // Step toward base case
   return number * factorial(--number);
 }
@@ -50,9 +50,9 @@ function collectEvenValues(array) {
   // Helper recursive method for collection
   function helper(array) {
     // Base case - length of 1 and even collected
-    if (array.length === 1) return array[0] % 2 === 0 ? arrayOfEvenValues.push(array[0]) : undefined;
+    if (array.length === 1) return array[0] % 2 === 0 ? arrayOfEvenValues.push(array[0]) : undefined
     // If it is even, must be collected to the result
-    if (array[0] % 2 === 0) arrayOfEvenValues.push(array[0]);
+    if (array[0] % 2 === 0) arrayOfEvenValues.push(array[0])
     // Toward base case
     return helper(array.slice(1));
   }

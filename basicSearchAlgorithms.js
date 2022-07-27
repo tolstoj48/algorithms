@@ -23,8 +23,8 @@ function binarySearch(array, value) {
   let endPointer = array.length - 1;
   let middlePointer = Math.floor((startPointer + endPointer) / 2);
   while (array[middlePointer] !== value && startPointer <= endPointer) {
-    if (value > array[middlePointer]) startPointer = middlePointer + 1;
-    if (value < array[middlePointer]) endPointer = middlePointer - 1;
+    if (value > array[middlePointer]) startPointer = middlePointer + 1
+    if (value < array[middlePointer]) endPointer = middlePointer - 1
     middlePointer = Math.floor((startPointer + endPointer) / 2);
   }
   return array[middlePointer] === value ? middlePointer : -1;
