@@ -17,12 +17,9 @@
  * @param {array} array To be searched.
  */
 function selectionSort(array) {
-  // From 1 to the end
   for (let j = 0; j < array.length - 1; j++) {
     let minimum = j;
-  // Must compare the ith element with all the smaller
     for(let i = j + 1; i < array.length; i++) {  
-  // Musí pokaždé najít nejmenší a vložit na začátek pole
       if (array[minimum] > array[i]) minimum = i;
       }
     if (minimum != j) swap(array, minimum, j)
