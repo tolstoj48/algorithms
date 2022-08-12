@@ -17,6 +17,6 @@ function insertionSort(array) {
 }
 
 console.log(insertionSort([3, 8, 11, 4, 1]));
-console.log(insertionSort([3,0,4,1]));
-console.log(insertionSort([3,3,4,1]));
-console.log(insertionSort([3,3]));
+console.log(insertionSort([3, 0, 4, 1]));
+console.log(insertionSort([3, 3, 4, 1]));
+console.log(insertionSort([3, 3]));
