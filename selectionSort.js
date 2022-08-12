@@ -14,7 +14,7 @@
  /**
  * Selection sort function
  * 
- * @param {array} array To be searched.
+ * @param {array} array To be sorted.
  */
 function selectionSort(array) {
   for (let j = 0; j < array.length - 1; j++) {

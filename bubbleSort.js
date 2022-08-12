@@ -14,7 +14,7 @@ function swap(array, idx1, idx2) {
 /**
  * Bubble sort function
  * 
- * @param {array} array To be searched.
+ * @param {array} array To be sorted.
  */
 function bubbleSort(array) {
   for (let i = array.length - 1; i > 0; i--) {
